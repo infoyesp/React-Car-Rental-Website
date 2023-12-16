@@ -9,7 +9,7 @@ import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServicesList";
 import carData from "../assets/data/carData";
 import CarItem from "../components/UI/CarItem";
-import BecomeDriverSection from "../components/UI/BecomeDriverSection";
+// import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 import Testimonial from "../components/UI/Testimonial";
 
 import BlogList from "../components/UI/BlogList";
@@ -26,7 +26,7 @@ const Home = () => {
             <Row className="form__row">
               <Col lg="4" md="4">
                 <div className="find__cars-left">
-                  <h2>Find your best car here</h2>
+                  <h2>We provide you a best Service</h2>
                 </div>
               </Col>
 
@@ -39,7 +39,7 @@ const Home = () => {
       </section>
       {/* =========== about section ================ */}
       <AboutSection />
-      {/* ========== services section ============ */}
+ 
       <section>
         <Container>
           <Row>
@@ -52,8 +52,8 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      {/* =========== car offer section ============= */}
-      <section>
+     
+      {/* <section>
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
@@ -67,10 +67,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      {/* =========== become a driver section ============ */}
-      <BecomeDriverSection />
-
-      {/* =========== testimonial section =========== */}
+     
       <section>
         <Container>
           <Row>
@@ -82,10 +79,10 @@ const Home = () => {
             <Testimonial />
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       {/* =============== blog section =========== */}
-      <section>
+      {/* <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
@@ -96,7 +93,7 @@ const Home = () => {
             <BlogList />
           </Row>
         </Container>
-      </section>
+      </section> */}
     </Helmet>
   );
 };

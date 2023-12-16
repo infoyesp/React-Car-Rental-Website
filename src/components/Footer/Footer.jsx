@@ -10,19 +10,13 @@ const quickLinks = [
     display: "About",
   },
 
-  {
-    path: "#",
-    display: "Privacy Policy",
-  },
+ 
 
   {
-    path: "/cars",
-    display: "Car Listing",
+    path: "/services",
+    display: "Services",
   },
-  {
-    path: "/blogs",
-    display: "Blog",
-  },
+ 
 
   {
     path: "/contact",
@@ -43,16 +37,13 @@ const Footer = () => {
                 <Link to="/home" className=" d-flex align-items-center gap-2">
                   <i class="ri-car-line"></i>
                   <span>
-                    Rent Car <br /> Service
+                  myTVS Erode  <br />  Siragiri Vel Automobiles
                   </span>
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+            Get all your car needs in a single place. Have anything specific in mind for your love (cars) share your thoughts with us and bring it into reality with our professional hands
             </p>
           </Col>
 
@@ -71,34 +62,39 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title mb-4">Head Office</h5>
-              <p className="office__info">123 Zindabazar, Sylhet, Bangladesh</p>
-              <p className="office__info">Phone: +0995345875365</p>
+              <h5 className="footer__link-title mb-4">Office</h5>
+              <p className="office__info">Address: 330/1, Athappampalayam, post, Benz club, Vallipurathanpalayam, Tamil Nadu 638112</p>
+              <p className="office__info">Phone: +91 8878475963</p>
 
               <p className="office__info">Email: muhib5532@gmail.com</p>
-
+ 
               <p className="office__info">Office Time: 10am - 7pm</p>
             </div>
           </Col>
-
           <Col lg="3" md="4" sm="12">
-            <div className="mb-4">
-              <h5 className="footer__link-title">Newsletter</h5>
-              <p className="section__description">Subscribe our newsletter</p>
-              <div className="newsletter">
-                <input type="email" placeholder="Email" />
-                <span>
-                  <i class="ri-send-plane-line"></i>
-                </span>
+              <div className="mb-4">
+                <h5 className="footer__link-title">Contact us</h5>
+                <p className="section__description">To know more</p>
+                <div className="whatsapp-chat">
+                  <a
+                    href={`https://wa.me/${+919001270298}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="contact__btn contact__btn-whatsapp">
+                      <i className="ri-whatsapp-line"></i> Chat on WhatsApp
+                    </button>
+                  </a>
+                </div>
               </div>
-            </div>
-          </Col>
+            </Col>
+              
+     
 
           <Col lg="12">
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
-                <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-                Muhibur Rahman. All rights reserved.
+                <i class="ri-copyright-line"></i>Copyright {year}, Siragiri Vel Automobiles. All rights reserved.
               </p>
             </div>
           </Col>

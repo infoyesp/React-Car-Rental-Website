@@ -1,13 +1,14 @@
 import React from "react";
 import "../../styles/find-car-form.css";
 import "../../styles/find-car-form.css";
+
 import { Form, FormGroup } from "reactstrap";
 
 const FindCarForm = () => {
   return (
     <Form className="form">
       <div className=" d-flex align-items-center justify-content-between flex-wrap">
-        <FormGroup className="form__group">
+        {/* <FormGroup className="form__group">
           <input type="text" placeholder="From address" required />
         </FormGroup>
 
@@ -36,7 +37,27 @@ const FindCarForm = () => {
 
         <FormGroup className="form__group">
           <button className="btn find__car-btn">Find Car</button>
-        </FormGroup>
+        </FormGroup> */}
+        <h1>
+          Online booking Comming Soon...
+          
+              <div className="mb-4">
+                <h5 className="footer__link-title">Contact us</h5>
+                <p className="section__description">To know more chat us on whatsapp  </p>
+                <div className="whatsapp-chat">
+                  <a
+                    href={`https://wa.me/${+919001270298}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="contact__btn contact__btn-whatsapp">
+                      <i className="ri-whatsapp-line"></i> 
+                    </button>
+                  </a>
+                </div>
+              </div>
+           
+          </h1>
       </div>
     </Form>
   );

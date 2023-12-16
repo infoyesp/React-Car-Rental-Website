@@ -1,0 +1,39 @@
+.service__item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Make each service item take up the full width */
+  }
+  
+  .service__item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service__item span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .service__item i {
+    font-size: 36px;
+    color: #3498db;
+  }
+  
+  .service__item h6 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .service__item p {
+    font-size: 14px;
+    color: #777;
+  }
+  

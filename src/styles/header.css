@@ -1,6 +1,6 @@
 .header__top {
   padding: 10px 0px;
-  background: #000d6b;
+  background: #000000;
   color: #fff;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .header__btn {
-  background: #000d6b !important;
+  background: #ffa02b !important;
   padding: 10px 20px;
   border: none;
   outline: none;
@@ -103,7 +103,7 @@
 
 .main__navbar {
   padding: 15px 0px;
-  background: #000d6b;
+  background: #ececec;
 }
 
 .mobile__menu i {
@@ -123,7 +123,7 @@
 }
 
 .nav__item {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -160,6 +160,8 @@
 .nav__active {
   color: #f9a826;
 }
+
+/* ... (previous styles) ... */
 
 @media only screen and (max-width: 768px) {
   .header__top,
@@ -202,5 +204,27 @@
 
   .menu__active {
     display: block;
+  }
+
+  /* Additional styles for logo and CTA in the mobile menu */
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .logo h1 a {
+    font-size: 1.2rem; /* Adjust font size as needed */
+  }
+
+  .header__top__left span {
+    font-size: 0.8rem; /* Adjust font size for the span in responsive mode */
+  }
+
+  .header__btn {
+    margin-top: 20px;
+  }
+
+  .header__btn a {
+    font-size: 0.9rem;
   }
 }
